@@ -18,6 +18,8 @@ public class main {
   }  	
     	}
     public static void checkforwin(){
+    	// check to see if user  x got combination
+    	
     	
     	if (board.button1.getText().equals("X")){
     		if (board.button4.getText().equals("X")){
@@ -29,7 +31,7 @@ public class main {
     			}
     		}
     	}
-    	
+    	// check to see if user  x got combination
     	if (board.button1.getText().equals("X")){
     		if (board.button5.getText().equals("X")){
     			if (board.button9.getText().equals("X")){
@@ -40,6 +42,8 @@ public class main {
     			}
     		}
     	}
+    	
+    	// check to see if user x got combination
     	if (board.button1.getText().equals("X")){
     		if (board.button2.getText().equals("X")){
     			if (board.button3.getText().equals("X")){
@@ -50,6 +54,8 @@ public class main {
     			}
     		}
     	}
+    	
+    	// check to see if user x got combination 
     	
     	if (board.button3.getText().equals("X")){
     		if (board.button5.getText().equals("X")){
@@ -62,6 +68,7 @@ public class main {
     		}
     	}
     	
+    	// check to see if user x got combination 
     	if (board.button3.getText().equals("X")){
     		if (board.button6.getText().equals("X")){
     			if (board.button9.getText().equals("X")){
@@ -72,6 +79,8 @@ public class main {
     			}
     		}
     	}
+    	
+    	// check to see if user x got combination 
     	if (board.button7.getText().equals("X")){
     		if (board.button8.getText().equals("X")){
     			if (board.button9.getText().equals("X")){
@@ -82,6 +91,9 @@ public class main {
     			}
     		}
     	}
+    	
+    	
+    	// check to see if user x got combination 
     	if (board.button4.getText().equals("X")){
     		if (board.button5.getText().equals("X")){
     			if (board.button6.getText().equals("X")){
@@ -92,6 +104,10 @@ public class main {
     			}
     		}
     	}
+    	
+    	// check to see if user x  got combination 
+    	
+    	
     	if (board.button2.getText().equals("X")){
     		if (board.button5.getText().equals("X")){
     			if (board.button8.getText().equals("X")){
@@ -102,6 +118,10 @@ public class main {
     			}
     		}
     	}
+    	
+    	// check to see if user  o got  combination 
+    	
+    	
     	if (board.button1.getText().equals("O")){
     		if (board.button4.getText().equals("O")){
     			if (board.button7.getText().equals("O")){
@@ -113,6 +133,9 @@ public class main {
     		}
     	}
     	
+    	// check to see if user o got combination 
+    	
+    	
     	if (board.button1.getText().equals("O")){
     		if (board.button5.getText().equals("O")){
     			if (board.button9.getText().equals("O")){
@@ -123,6 +146,8 @@ public class main {
     			}
     		}
     	}
+    	// check to see if user  o got  combination 
+    	
     	if (board.button1.getText().equals("O")){
     		if (board.button2.getText().equals("O")){
     			if (board.button3.getText().equals("O")){
@@ -133,6 +158,10 @@ public class main {
     			}
     		}
     	}
+    	
+    	
+    	// check to see if user o got combination 
+    	
     	
     	if (board.button3.getText().equals("O")){
     		if (board.button5.getText().equals("O")){
@@ -145,6 +174,9 @@ public class main {
     		}
     	}
     	
+    	// check to see if user  o got combination 
+    	
+    	
     	if (board.button3.getText().equals("O")){
     		if (board.button6.getText().equals("O")){
     			if (board.button9.getText().equals("O")){
@@ -155,6 +187,11 @@ public class main {
     			}
     		}
     	}
+    	
+    	
+    	// check to see if user o got combination 
+    	
+    	
     	if (board.button7.getText().equals("O")){
     		if (board.button8.getText().equals("O")){
     			if (board.button9.getText().equals("O")){
@@ -165,6 +202,10 @@ public class main {
     			}
     		}
     	}
+    	
+    	// check to see if user o got combination 
+    	
+    	
     	if (board.button4.getText().equals("O")){
     		if (board.button5.getText().equals("O")){
     			if (board.button6.getText().equals("O")){
@@ -175,6 +216,10 @@ public class main {
     			}
     		}
     	}
+    	
+    	// check to see if user o got combination 
+    	
+    	
     	if (board.button2.getText().equals("O")){
     		if (board.button5.getText().equals("O")){
     			if (board.button8.getText().equals("O")){

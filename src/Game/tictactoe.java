@@ -11,7 +11,7 @@ public class tictactoe extends JFrame {
         public tictactoe() {
                 initComponents();
         }
- 
+ // user 1 , or user two picks button 1, then program main checks for combination for win , checks for action. 
         public void button1ActionPerformed(ActionEvent e) {
               if (button1.getText().equals("")){
             	  if (main.playerTurn == true ){
@@ -233,7 +233,7 @@ public class tictactoe extends JFrame {
                                 button9ActionPerformed(e);
                         }
                 });
- 
+    // Graphical user interface 
                 GroupLayout contentPaneLayout = new GroupLayout(contentPane);
                 contentPane.setLayout(contentPaneLayout);
                 contentPaneLayout.setHorizontalGroup(
@@ -285,6 +285,7 @@ public class tictactoe extends JFrame {
                 setLocationRelativeTo(getOwner());
 
         }
+        // made buttons public so other programs could use
  
         public JButton button1;
         public JButton button2;
